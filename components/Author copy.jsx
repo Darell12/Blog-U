@@ -1,17 +1,16 @@
-import React from 'react';
 import Image from 'next/image';
 
 import { grpahCMSImageLoader } from '../util';
 
 const AuthorE = () => {
-   let imgP = "https://media.graphassets.com/f4zVx4AZTJiviRIcUJBV";
-  let slugP = "technical-seo-with-hygraph";
-  let title= "POST ESTATICO";
-  let categories =[{
+  const imgP = "https://media.graphassets.com/f4zVx4AZTJiviRIcUJBV";
+  const slugP = "technical-seo-with-hygraph";
+  const title= "POST ESTATICO";
+  const categories =[{
                 "name": "Neurologia",
                 "slug": "neurologia"
   }];
-  let author = {
+  const author = {
     "bio": "",
               "name": "Brigitte Arrieta Delgado",
               "id": "ckadqdbhk00go0148zzxh4bbq",
@@ -19,9 +18,9 @@ const AuthorE = () => {
                 "url": "https://media.graphassets.com/H93m4DkgT5aTZqYHchPo"
               }
   }
-  let createdAt = "2020-05-19T10:11:58.792576+00:00";
-  let excerpt = "Get started with your SEO implementation when using a Headless CMS"
- let post = {
+  const createdAt = "2020-05-19T10:11:58.792576+00:00";
+  const excerpt = "Get started with your SEO implementation when using a Headless CMS"
+  const post = {
   "data": {
     "postsConnection": {
       "edges": [
