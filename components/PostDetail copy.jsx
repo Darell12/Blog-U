@@ -1,22 +1,22 @@
 import React from 'react';
-
+import Link from 'next/dist/client/link';
 import moment from 'moment';
 
 const PostDetailE = () => {
 
-      let imgP = "https://media.graphassets.com/f4zVx4AZTJiviRIcUJBV";
+      let imgP = "https://media.graphassets.com/sxifewHbSgKdcarfzVAM";
   let slugP = "technical-seo-with-hygraph";
-  let title= "POST ESTATICO";
+  let title= "Tipos de hormonas";
   let categories =[{
-                "name": "Neurologia",
-                "slug": "neurologia"
+                "name": "Sistema Endocrino",
+                "slug": "sistema-endocrino"
   }];
   let author = {
     "bio": "",
-              "name": "Ronak Ganatra",
+              "name": "Brigitte Arrieta Delgado",
               "id": "ckadqdbhk00go0148zzxh4bbq",
               "photo": {
-                "url": "https://media.graphassets.com/JV8sqKPoR6e7C6onDD4N"
+                "url": "https://media.graphassets.com/H93m4DkgT5aTZqYHchPo"
               }
   }
   let createdAt = "2020-05-19T10:11:58.792576+00:00";
@@ -102,47 +102,350 @@ const PostDetailE = () => {
               <span className="align-middle">{moment(createdAt).format('MMM DD, YYYY')}</span>
             </div>
           </div>
-          <h1 className="mb-8 text-3xl font-semibold">{title}</h1>
-  <table summary="Los grupos de música punk más famosos del Reino Unido">
-  <caption>Un resumen de los grupos de música punk más famosos del Reino Unido</caption>
-  <thead>
-    <tr>
-      <th scope="col">Grupo</th>
-      <th scope="col">Año de formación</th>
-      <th scope="col">Número de álbumes</th>
-      <th scope="col">Canción más conocida</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Buzzcocks</th>
-      <td>1976</td>
-      <td>9</td>
-      <td>Ever fallen in love (with someone you shouldn't've)</td>
-    </tr>
-    <tr>
-      <th scope="row">The Clash</th>
-      <td>1976</td>
-      <td>6</td>
-      <td>London Calling</td>
-    </tr>
-
-      ... se han eliminado algunas filas por abreviar
-
-    <tr>
-      <th scope="row">The Stranglers</th>
-      <td>1974</td>
-      <td>17</td>
-      <td>No More Heroes</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <th scope="row" colspan="2">Número total de álbumes</th>
-      <td colspan="2">77</td>
-    </tr>
-  </tfoot>
+          <h1 className="mb-8 text-3xl font-semibold text-center">{title}</h1>
+          <h1 className="mb-8 text-2xl font-semibold text-center">Hipotalamo</h1>
+<table className='border-solid'>
+	<thead className='bg-gray-200 border-b'>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th className='text-sm font-medium px-6 py-4 text-left'>HORMONA</th>
+			<th className='text-sm font-medium px-6 py-4 text-left'>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td className=''>Hormona antidiurética (ADH)</td>
+			<td>Regular el balance de agua por lo que actúa sobre los riñones y es importante para la regulación de la presión arterial.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Oxitocina</td>
+			<td>Estimula las contracciones uterinas y la salida de leche.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Liberadora de corticotropina (ACTH plasmática)</td>
+			<td>Se produce por la hipófisis anterior. Estimular la secreción de cortisol.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Liberadora de gonadotropina (GnRH)</td>
+			<td>Actúa sobre la hipófisis, estimulando la producción y liberación de la hormona luteinizante (LH) y la foliculoestimulante (FSH). Como decía antes, coordina el ciclo menstrual femenino y la espermatogénesis masculina. Es un decapéptido.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Inhibidora de prolactina (PIH)</td>
+			<td>Inhibir la liberación de la prolactina del lóbulo anterior de la hipófisis.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Somatostatina (GHIH)</td>
+			<td>Inhibe la producción de la hormona del crecimiento por la hipófisis, también tiene efectos en el páncreas, donde inhibe la secreción de insulina y glucagón.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Liberadora de tirotropina (TRH)</td>
+			<td>Es un tripéptido y su función es estimular la secreción de prolactina y tirotropina (TSH) que regula la producción de hormonas tiroideas por la glándula tiroides.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Somatocrinina – liberadora de somatotropina (STH)</td>
+			<td>Se produce en el núcleo arcuato del hipotálamo y estimula la liberación de la hormona del crecimiento hipofisiaria.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Somatostatina – Inhibidora de la liberación de somatotropina (GIH)</td>
+			<td>Inhibe la secreción de somatotropina, insulina, glucagón, polipéptido pancreático y la TSH. Se secreta por la región periventricular del hipotálamo.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Factor inhibidor de la liberación de la prolactina (PIF)</td>
+			<td>Inhibe la secreción de prolactina hipofisiaria y se secreta por el núcleo arcuato hipotalámico.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Angiotensina II (AII)</td>
+			<td>La angiotensina II aumenta la presión sanguínea, la presión y el pH.</td>
+		</tr>
+	</tbody>
 </table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Hipófisis</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA</th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Hormona del crecimiento (GH) o somatotropina</td>
+			<td>Estimula el crecimiento y la replicación celular acelerando la síntesis proteínas.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Tirotropina u hormona tiroides estimulante (TSH)</td>
+			<td>Estimula la glándula tiroides.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Hormona foliculoestimulante (FSH)</td>
+			<td>Estimula el folículo ovárico, espermatogénesis.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Hormona luteinizante (LH)</td>
+			<td>Estimula la ovulación y la formación del cuerpo lúteo en las hembras y las células intersticiales en el macho.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Prolactina (PRL)</td>
+			<td>Estimula la producción de leche.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Hormona adrenocorticotrópica (ACTH)</td>
+			<td>Estimula la corteza suprarrenal.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Hormona melanocitoestimulante (MSH)</td>
+			<td>Estimula los melanocitos de la piel, aumentando el ritmo de producción y distribución de melanina.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Pineal</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA</th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Melatonina</td>
+			<td>Regular el ciclo circadiano, haciendo con que funcione correctamente, mejorando la calidad del sueño.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Melanina</td>
+			<td>Pigmento natural responsable del color de la piel y el cabello. proteger a la piel contra los efectos de la radiación ultravioleta de la luz solar. </td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Tiroides</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA</th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Triyodotironina (T3)</td>
+			<td>Estimula el metabolismo, el crecimiento y el desarrollo. También regula los niveles de energía del cuerpo, la temperatura y el correcto funcionamiento de todos sus órganos y tejidos.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Tiroxina (T4)</td>
+			<td>Regula la frecuencia cardiaca, los niveles de colesterol, el peso corporal, el nivel de energía, la fuerza musculas, las condiciones de la piel, la regularidad menstrual, la memoria.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Calcitonina</td>
+			<td>Reducción de los niveles de calcio sanguíneo.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Paratiroides</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA </th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Paratiroidea (PTH)</td>
+			<td>Es una hormona peptídica secretada por la glándula paratiroides que interviene en la regulación del metabolismo del calcio y del fósforo.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Timo</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA </th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Timopoyetina</td>
+			<td>Produce diferenciación de las células linfoides a linfocitos.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Timosina</td>
+			<td>Estimula la competencia inmunológica en los tejidos linfáticos.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Factor humoral tímico (THF)</td>
+			<td>Aumenta las respuestas inmunes a los virus en particular</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Timulina (TF)</td>
+			<td>Reduce el dolor de una inflamación y juega un papel en las interacciones inmunológicas y neuro-endocrinas.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Glándulas suprarrenales</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA</th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Adrenalina – Epinefrina (DCI)</td>
+			<td>Está implicada en las respuestas de pelea o huida del cuerpo, incrementando el ritmo cardíaco y los niveles sanguíneos de glucosa, causando un aumento de flujo sanguíneo hacia el cerebro y los músculos</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Noradrenalina (DCI)</td>
+			<td>Trabaja junto con la adrenalina, constriñendo los vasos sanguíneos y aumentando la presión sanguínea durante la respuesta al estrés.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Corticosteroides – Mineralocorticoides</td>
+			<td>Esteroides, con importante efecto sobre el equilibrio del sodio y del potasio.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Corticosteroides – Glucocorticoides</td>
+			<td>Esteroides que influyen en el metabolismo de los hidratos de carbono, las grasas y las proteínas.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Corticosteroides – Hormonas sexuales </td>
+			<td>Esteroides que son fundamentalmente andrógenos débiles y que contribuyen a los caracteres sexuales secundarios.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Páncreas</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA</th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Glucagón</td>
+			<td>Aumenta el nivel de glucosa sanguínea (hormona hiperglucemiante), acelera la degradación de glucógeno en glucosa en el hígado (glucogenólisis). Convierte otros nutrientes en glucosa en el hígado (gluconeogénesis) y liberando glucosa hacia la sangre.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Insulina</td>
+			<td>Regula el nivel de glucosa en la sangre, y estimula la síntesis de proteínas.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Somatostatina</td>
+			<td>inhibe la contracción del músculo liso del aparato digestivo y de la vesícula biliar cuando la digestión ha terminado. Inhibide la liberación de insulina y de glucagón de las células beta y alfa vecinas. Actúa como una hormona circulante disminuyendo la absorción de nutrientes desde el tubo digestivo.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Polipéptido pancreático</td>
+			<td>Inhibe la secreción de somatostatina y la contracción de la vesícula biliar.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Ovarios</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA</th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Estrógenos</td>
+			<td>Estimular el desarrollo de las características sexuales secundarias femeninas.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Progesterona</td>
+			<td>Actúa para preparar el útero para recibir el óvulo fertilizado y mantener el embarazo.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Testículos</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA</th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Testosterona</td>
+			<td>Mejora el crecimiento óseo, el crecimiento del vello corporal y el desarrollo de los órganos sexuales durante la pubertad. La testosterona también es importante en el aumento de fuerza muscular.</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<h1 className="mb-8 text-2xl font-semibold text-center">Placenta</h1>
+<table>
+	<thead>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<th>HORMONA</th>
+			<th>ACCION PRINCIPAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Gonadotropina coriónica humana (hCG)</td>
+			<td>Producida por el óvulo fertilizado después de que se implanta en el útero y ayuda a mantener el cuerpo lúteo durante las primeras etapas del embarazo.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Progesterona y estrógeno</td>
+			<td>La progesterona suficiente en el cuerpo de una mujer asegura que el revestimiento del útero permanezca intacto y proporciona un ambiente nutritivo para que el óvulo se implante y se desarrolle. Y el estrógeno, ayuda a mantener el embarazo y a preparar los senos para la producción de leche.</td>
+		</tr>
+		<tr className='bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100'>
+			<td>Lactógeno placentario humano (hPL)</td>
+			<td>Hormona secretada por la placenta que promueve el crecimiento de la glándula mamaria en preparación para la lactancia.</td>
+		</tr>
+	</tbody>
+</table>
+<br /><br />
+<h2>Referencias</h2>
+<br />
+<span>
+  Costas, G. (2021, 14 abril). Hipotálamo: qué es, estructura, funciones y hormonas implicadas. Ciencia y Biología. 
+</span><br />
+    <a className='text-blue-600' href="https://cienciaybiologia.com/hipotalamo/">https://cienciaybiologia.com/hipotalamo/</a>
+
+    <br />
+    <br />
+<span>
+  Costas, G. (2020, 19 septiembre). Glándula pituitaria o hipófisis: estructura, funciones y hormonas. Ciencia y Biología 
+</span>
+<br />
+    <a className='text-blue-600' href="https://cienciaybiologia.com/glandula-pituitaria-o-hipofisis-estructura-funciones-y-hormonas/">https://cienciaybiologia.com/glandula-pituitaria-o-hipofisis-estructura-funciones-y-hormonas/</a>
+        <br />
+    <br />
+<span>
+  Rodríguez, A. (2022, 21 marzo). Hormonas que secreta el timo. 
+</span><br />
+    <a className='text-blue-600' href="https://biblogteca.com/hormonas-que-secreta-el-timo/">Biblogteca. https://biblogteca.com/hormonas-que-secreta-el-timo/</a>
+        <br />
+    <br />
+<span>
+  Rodríguez, A. (2022b, marzo 28). Hormonas que secreta el páncreas. 
+</span><br />
+    <a className='text-blue-600' href="https://biblogteca.com/hormonas-que-secreta-el-pancreas/">Biblogteca. https://biblogteca.com/hormonas-que-secreta-el-pancreas/</a>
+        <br />
+    <br />
+<span>
+  C. (2021, 16 junio). ▷ Hormonas de los testículos y los ovarios: funciones y características anatómicas. 
+</span><br />
+    <a className='text-blue-600' href="https://estudyando.com/hormonas-de-los-testiculos-y-los-ovarios-funciones-y-caracteristicas-anatomicas/">Estudyando. https://estudyando.com/hormonas-de-los-testiculos-y-los-ovarios-funciones-y-caracteristicas-anatomicas/</a>
+        <br />
+    <br />
+<span>
+  C. (2021a, junio 16). ▷ Hormonas de la placenta: estrógeno, progesterona y hCG 
+</span><br />
+    <a className='text-blue-600' href="https://estudyando.com/hormonas-de-la-placenta-estrogeno-progesterona-y-hcg/">Estudyando. https://estudyando.com/hormonas-de-la-placenta-estrogeno-progesterona-y-hcg/</a>
+
         </div>
 
 

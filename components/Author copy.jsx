@@ -13,10 +13,10 @@ const AuthorE = () => {
   }];
   let author = {
     "bio": "",
-              "name": "Ronak Ganatra",
+              "name": "Brigitte Arrieta Delgado",
               "id": "ckadqdbhk00go0148zzxh4bbq",
               "photo": {
-                "url": "https://media.graphassets.com/JV8sqKPoR6e7C6onDD4N"
+                "url": "https://media.graphassets.com/H93m4DkgT5aTZqYHchPo"
               }
   }
   let createdAt = "2020-05-19T10:11:58.792576+00:00";

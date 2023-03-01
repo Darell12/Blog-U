@@ -7,23 +7,23 @@ import { grpahCMSImageLoader } from '../util';
 import autoprefixer from 'autoprefixer';
 
 const PostCardE = () => {
-  let imgP = "https://media.graphassets.com/f4zVx4AZTJiviRIcUJBV";
-  let slugP = "technical-seo-with-hygraph";
-  let title= "POST ESTATICO";
+  let imgP = "https://media.graphassets.com/sxifewHbSgKdcarfzVAM";
+  let slugP = "tipos-de-hormona";
+  let title= "Tipos de hormona";
   let categories =[{
                 "name": "Neurologia",
                 "slug": "neurologia"
   }];
   let author = {
     "bio": "",
-              "name": "Ronak Ganatra",
+              "name": "Brigitte Arrieta Delgado",
               "id": "ckadqdbhk00go0148zzxh4bbq",
               "photo": {
-                "url": "https://media.graphassets.com/JV8sqKPoR6e7C6onDD4N"
+                "url": "https://media.graphassets.com/H93m4DkgT5aTZqYHchPo"
               }
   }
-  let createdAt = "2020-05-19T10:11:58.792576+00:00";
-  let excerpt = "Get started with your SEO implementation when using a Headless CMS"
+  let createdAt = "2023-02-27T10:11:58.792576+00:00";
+  let excerpt = ""
  let post = {
   "data": {
     "postsConnection": {
@@ -81,7 +81,7 @@ const PostCardE = () => {
     </p>
     <div className="text-center">
       <Link href={`/post/estatico`}>
-        <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">Continue Reading</span>
+        <span className="transition duration-500 ease transform hover:-translate-y-1 inline-block bg-pink-600 text-lg font-medium rounded-full text-white px-8 py-3 cursor-pointer">Continuar Leyendo</span>
       </Link>
     </div>
   </div>
