@@ -19,7 +19,7 @@ const CategoryPost = ({ posts }) => {
           {posts.map((post, index) => (
             <PostCard key={index} post={post.node} />
           ))}
-          <PostCardE/>
+          <PostCardE />
         </div>
         <div className="col-span-1 lg:col-span-4">
           <div className="relative lg:sticky top-8">

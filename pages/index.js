@@ -1,4 +1,3 @@
-
 import { PostCard, Categories, PostWidget } from '../components';
 import { getPosts } from '../services';
 import PostCardE from '../components/PostCard copy';
@@ -11,7 +10,7 @@ export default function Home({ posts }) {
           {posts.map((post, index) => (
             <PostCard key={index} post={post.node} />
           ))}
-          <PostCardE/>
+          <PostCardE />
         </div>
         <div className="lg:col-span-4 col-span-1">
           <div className="lg:sticky relative top-8">

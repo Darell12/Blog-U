@@ -4,14 +4,14 @@ import moment from 'moment';
 
 const PostDetailE = () => {
 
-      let imgP = "https://media.graphassets.com/sxifewHbSgKdcarfzVAM";
-  let slugP = "technical-seo-with-hygraph";
-  let title= "Tipos de hormonas";
-  let categories =[{
+  const imgP = "https://media.graphassets.com/sxifewHbSgKdcarfzVAM";
+  const slugP = "technical-seo-with-hygraph";
+  const title= "Tipos de hormonas";
+  const categories =[{
                 "name": "Sistema Endocrino",
                 "slug": "sistema-endocrino"
   }];
-  let author = {
+  const author = {
     "bio": "",
               "name": "Brigitte Arrieta Delgado",
               "id": "ckadqdbhk00go0148zzxh4bbq",
@@ -19,9 +19,9 @@ const PostDetailE = () => {
                 "url": "https://media.graphassets.com/H93m4DkgT5aTZqYHchPo"
               }
   }
-  let createdAt = "2020-05-19T10:11:58.792576+00:00";
-  let excerpt = "Get started with your SEO implementation when using a Headless CMS"
- let post = {
+  const createdAt = "2020-05-19T10:11:58.792576+00:00";
+  const excerpt = "Get started with your SEO implementation when using a Headless CMS"
+ const post = {
   "data": {
     "postsConnection": {
       "edges": [

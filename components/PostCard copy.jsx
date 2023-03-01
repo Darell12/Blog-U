@@ -1,20 +1,14 @@
 import React from 'react';
-import Image from 'next/image';
 import moment from 'moment';
 import Link from 'next/link';
-
 import { grpahCMSImageLoader } from '../util';
-import autoprefixer from 'autoprefixer';
+
 
 const PostCardE = () => {
-  let imgP = "https://media.graphassets.com/sxifewHbSgKdcarfzVAM";
-  let slugP = "tipos-de-hormona";
-  let title= "Tipos de hormona";
-  let categories =[{
-                "name": "Neurologia",
-                "slug": "neurologia"
-  }];
-  let author = {
+  const imgP = "https://media.graphassets.com/sxifewHbSgKdcarfzVAM";
+  const slugP = "tipos-de-hormona";
+  const title= "Tipos de hormona";
+  const author = {
     "bio": "",
               "name": "Brigitte Arrieta Delgado",
               "id": "ckadqdbhk00go0148zzxh4bbq",
@@ -22,9 +16,9 @@ const PostCardE = () => {
                 "url": "https://media.graphassets.com/H93m4DkgT5aTZqYHchPo"
               }
   }
-  let createdAt = "2023-02-27T10:11:58.792576+00:00";
-  let excerpt = ""
- let post = {
+  const createdAt = "2023-02-27T10:11:58.792576+00:00";
+  const excerpt = ""
+  const post = {
   "data": {
     "postsConnection": {
       "edges": [
@@ -39,16 +33,6 @@ const PostCardE = () => {
  }
   return(
   <div className="bg-white shadow-lg rounded-lg p-0 lg:p-8 pb-12 mb-8">
-    {/* <div className="relative shadow-md inline-block w-full h-60 lg:h-80 mb-6">
-      <Image
-        unoptimized
-        loader={grpahCMSImageLoader}
-        alt={post.title}
-        className="shadow-lg rounded-t-lg lg:rounded-lg"
-        layout="fill"
-        src={post.featuredImage.url}
-      />
-    </div> */}
     <div className="relative overflow-hidden shadow-md pb-80 mb-6">
       <img src={imgP} alt="" className="object-top absolute h-80 w-full object-cover  shadow-lg rounded-t-lg lg:rounded-lg" />
     </div>
@@ -57,7 +41,7 @@ const PostCardE = () => {
       <Link href={`/post/${slugP}`}>{title}</Link>
     </h1>
     <div className="block lg:flex text-center items-center justify-center mb-8 w-full">
-      <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8 items-center">
+      <div className="flex items-center justify-center mb-4 lg:mb-0 w-full lg:w-auto mr-8">
         <img
           unoptimized
           loader={grpahCMSImageLoader}

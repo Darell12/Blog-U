@@ -1,6 +1,5 @@
 import React from 'react';
 import { useRouter } from 'next/router';
-
 import { Categories, PostWidget, Loader } from '../../components';
 import PostDetailE from '../../components/PostDetail copy';
 import AuthorE from '../../components/Author copy';
